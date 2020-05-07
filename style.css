@@ -1,6 +1,6 @@
 body {
     background-color: lightblue;
-    font-family:'Raleway',sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   nav {
@@ -73,6 +73,7 @@ body {
 h2{ 
     font-family: 'Acme', sans-serif;
     color: darkred;
+    font-weight: bold;
 }
 .main{
     text-align: center;
@@ -98,4 +99,28 @@ h2{
 }
 p {
     text-align: justify;
+}
+
+#contact p {
+  text-align: center;
+  margin-inline-start: 25pc;
+
+}
+
+#contact p span a{
+  text-emphasis: emphasis s;
+  color:darkred;
+}
+
+#github-image{
+  height:35px;
+  width: 90px;
+  margin-inline-start: 25pc;
+  object-fit: contain;
+}
+#codepen-image{
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+  margin-left: 2cm;
 }
